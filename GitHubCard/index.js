@@ -3,6 +3,14 @@
            https://api.github.com/users/<your name>
 */
 
+axios.get('https://api.github.com/users/brennuck')
+  .then(res => {
+    console.log(res);
+  })
+  .catch(err => {
+    return err
+  })
+
 /* Step 2: Inspect and study the data coming back, this is YOUR 
    github info! You will need to understand the structure of this 
    data in order to use it to build your component function 
@@ -51,5 +59,5 @@ const followersArray = [];
   dustinmyers
   justsml
   luishrd
-  bigknell
+  bigknellv
 */
